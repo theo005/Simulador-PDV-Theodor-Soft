@@ -1,0 +1,78 @@
+.cadastro {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid var(--border-mode);
+    background-color: color-mix(in srgb, var(--bg-mode) 75%, white); /* caso coloque border mode, fica branco no preto */
+}
+
+.formFields {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+button {
+    width: 100px;
+    min-height: 28px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    filter: brightness(65%);
+    transform: scale(1.35)/* O botao desaparece com esse matrix(1, 0, 1, 0, 50, 100);    esse o botao vira matrix(0, 1, 1, 0, 50, 100);  
+    matrix(1, 1, 0, 207, 100, 20); botao estica muito    matrix(200, 1, 0, 207, 100, 120);*/
+}
+
+#btnCadastrar {
+    background-color: #0c9b1a;
+    color: white;
+    margin-right: 25px;
+}
+
+#btnReset {
+    background-color: darkslategray;
+    color: white;
+}
+
+input, select {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 10px 15px 10px;
+}
+
+table {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+thead tr {
+    background-color: var(--bg-logo);
+    color: var(--font-sidebar);
+}
+
+tr, th {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: color-mix(in srgb, var(--bg-mode) 75%, white);
+}
+
+.apagar {
+    color: rgb(217, 73, 73);
+    cursor: pointer;  
+}

@@ -4,8 +4,8 @@ Projeto de exemplo de sistema de vendas PDV desenvolvido na unidade curricular L
 
 ## Screenshots 
 
-![Tela de Dashboard](https://github.com/theo005/Simulador-PDV-Theodor-Soft/blob/master/telas/dashboard.png)
-![Tela de PDV](https://github.com/theo005/Simulador-PDV-Theodor-Soft/blob/master/telas/pdv.png)
+![Tela de Dashboard](https://github.com/theo005/Simulador-PDV-Theodor-Soft/blob/master/telas/dashboard.png "Descrição da imagem")
+![Tela de PDV](https://github.com/theo005/Simulador-PDV-Theodor-Soft/blob/master/telas/pdv.png "Descrição da imagem")
 
 ## Technologias 
 
